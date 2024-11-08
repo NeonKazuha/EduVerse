@@ -1,0 +1,14 @@
+[package]
+name = "Meta-edu-Aptos-AR/VR"
+version = "1.0.0"
+authors = []
+
+[addresses]
+publisher = "_"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", rev = "mainnet", subdir = "aptos-move/framework/aptos-framework" }
+AptosStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", rev = "mainnet", subdir = "aptos-move/framework/aptos-stdlib" }
+
+[dev-dependencies]
+# Add any development dependencies here if needed
