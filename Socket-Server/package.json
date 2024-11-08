@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@artcom/react-three-arjs": "^0.5.6",
+    "express": "^4.19.2",
+    "leva": "^0.9.35",
+    "peerjs": "^1.5.2",
+    "server": "file:",
+    "three": "^0.154.0"
+  }
+}
