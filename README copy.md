@@ -1,10 +1,8 @@
-
-
-# Meta-Edu-Aptos
+# EduVerse
 
 ## Introduction
 
-Welcome to **Meta-Edu-Aptos**, an innovative 3D Metaverse platform that redefines virtual learning and education. This platform offers immersive classrooms where students can engage with course materials, complete assignments, and participate in interactive quests, all within a virtual environment. By leveraging **Aptos blockchain technology** and the **Move programming language**, Meta-Edu-Aptos rewards students with tokens and mints NFTs based on their achievements, thereby creating a dynamic learning experience.
+Welcome to **EduVerse**, an innovative 3D Metaverse platform that redefines virtual learning and education. This platform offers immersive classrooms where students can engage with course materials, complete assignments, and participate in interactive quests, all within a virtual environment. By leveraging **Aptos blockchain technology** and the **Move programming language**, Meta-Edu-Aptos rewards students with tokens and mints NFTs based on their achievements, thereby creating a dynamic learning experience.
 
 Our goal is to break down geographical barriers and provide accessible, engaging, and interactive educational experiences for students worldwide. With features that support real-time collaboration, immersive learning environments, and blockchain-driven rewards, this platform is designed for the future of education.
 In Meta-Edu-Aptos, learning goes beyond traditional methods—it's engaging, fun, and rewarding. By completing interactive quests, students can climb up the leaderboard, earn XP points, and unlock exclusive rewards. The more you achieve, the more you advance!
@@ -29,7 +27,7 @@ Meta-Edu-Aptos utilizes a diverse array of technologies to create seamless and e
 
 - **Three.js**: A lightweight 3D library that enables rendering of immersive 3D graphics in web browsers, making our classrooms visually appealing.
 - **React**: A powerful JavaScript library for building user interfaces, facilitating the development of interactive and dynamic components.
-- **Langchain**: A natural language processing framework used for building conversational agents that assist users in real time.
+- **LlamaIndex**: A natural language processing framework used for building conversational agents that assist users in real time.
 - **Python**: Employed for backend services and machine learning tasks, ensuring high-performance operations.
 - **GSAP (GreenSock Animation Platform)**: A robust animation library for creating smooth animations and transitions throughout the platform.
 - **R3F (React Three Fiber)**: A React renderer for Three.js that enhances integration and performance of 3D scenes.
@@ -115,7 +113,7 @@ Before running the project, ensure you have the following installed:
 1. **Clone the Repository:**
     bash
     git clone https://github.com/Him7n/Meta-Edu-Aptos.git
-    cd meta-edu-aptos
+    cd EduVerse
     
 
 2. **Install Dependencies:**
@@ -131,7 +129,7 @@ Before running the project, ensure you have the following installed:
     
    - For the Python app:
     bash
-    python app.py
+    python main.py
     
 
 4. **Start the MongoDB Server**: Ensure your MongoDB server is running locally.
@@ -154,13 +152,7 @@ We welcome contributions from developers, designers, and educators to enhance th
 
 ## License
 
-Meta-Edu-Aptos is licensed under the MIT License. See the LICENSE file for details.
-
-
-
-## Acknowledgments
-
-We would like to thank the following for their contributions and support:
+EduVerse is licensed under the MIT License. See the LICENSE file for details.
 
 - The Aptos community for their robust blockchain infrastructure.
 - The open-source contributors whose libraries and tools made this project possible.
