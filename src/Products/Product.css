@@ -1,0 +1,103 @@
+* {
+  font-family: sans-serif;
+  font-size: 2vw;
+}
+.MainContainer {
+  width: 90vw;
+  height: 40vw;
+  z-index: 10;
+  /* background-color: black; */
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 10vw;
+  opacity: 1;
+}
+
+.left-portion {
+  display: flex;
+  flex-direction: row;
+  /* background-color: cyan; */
+  align-items: center;
+  justify-content: space-around;
+  z-index: 10;
+  width: 40vw;
+  height: 40vh;
+  flex-wrap: wrap;
+  opacity: 1;
+}
+.right-portion {
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  /* background-color: cyan; */
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+
+  width: 20vw;
+  height: 40vh;
+}
+.left-portion > div {
+  background-color: rgba(47, 54, 255, 0);
+  /* position: absolute; */
+  color: rgba(0, 0, 0, 0.482);
+
+  opacity: 0.8;
+  border: 2px solid white;
+  border-radius: 15px;
+  gap: 1vh;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-portion > div {
+  background-color: rgba(47, 54, 255, 0);
+  /* position: absolute; */
+  color: rgba(0, 0, 0, 0.482);
+  width: 20vw;
+  height: 10vh;
+  border: 2px solid white;
+  border-radius: 15px;
+
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .right-portion > div :hover{
+    background-color: rgba(47, 255, 241, 0.52);
+}
+.left-portion > div :hover{
+    background-color: rgba(47, 255, 241, 0.52);
+} */
+
+/* .left-portion > div:hover,
+.right-portion > div:hover {
+  background-color: rgba(47, 255, 241, 0.52);
+} */
+
+.scrollbar-hidden {
+  scrollbar-width: none;
+}
+
+/* Hide scrollbar for Webkit browsers */
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+.glassmorphism-item {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.glassmorphism-item2 {
+    backdrop-filter: blur(10px);
+   
+}
