@@ -1,9 +1,9 @@
 from fastapi import FastAPI, Form
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
-from llama_index import StorageContext, load_index_from_storage
-from llama_index.llms import Gemini
-from llama_index.embeddings import GeminiEmbedding
+from llama_index.core import StorageContext, load_index_from_storage
+from llama_index.llms.gemini import Gemini
+from llama_index.embeddings.gemini import GeminiEmbedding
 from config import GOOGLE_API_KEY
 from load_documents import load_and_index_pdf, sayyy
 
@@ -20,6 +20,11 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+@app.post("/test_form/")
+async def test_form(file_path: str = Form(...)):
+    return {"received_file_path": file_path}
+
 
 @app.post("/process_pdf/")
 async def process_pdf(file_path: str = Form(...)):

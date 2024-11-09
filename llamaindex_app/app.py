@@ -1,9 +1,9 @@
 import streamlit as st
 from config import GOOGLE_API_KEY, ALLOWED_FILENAME
 from load_documents import load_and_index_pdf, sayyy
-from llama_index import StorageContext, load_index_from_storage
-from llama_index.llms import Gemini
-from llama_index.embeddings import GeminiEmbedding
+from llama_index.core import StorageContext, load_index_from_storage
+from llama_index.llms.gemini import Gemini
+from llama_index.embeddings.gemini import GeminiEmbedding
 
 st.title("PDF Question Answering System")
 

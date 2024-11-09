@@ -1,0 +1,10 @@
+python-dotenv 
+google-generativeai 
+llama-index
+llama-index-llms-gemini 
+pyttsx3
+fastapi 
+uvicorn 
+python-multipart 
+streamlit 
+llama-index-embeddings-gemini
