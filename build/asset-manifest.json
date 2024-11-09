@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a56c616f.css",
+    "main.js": "/static/js/main.79fd8117.js",
+    "static/js/385.57edec80.chunk.js": "/static/js/385.57edec80.chunk.js",
+    "static/media/landing.mp4": "/static/media/landing.3d75908d58b064ddef6e.mp4",
+    "static/media/pikaso_embed.png": "/static/media/pikaso_embed.552b0df76b576384ef1c.png",
+    "static/media/axios.cjs": "/static/media/axios.2b1906a20e9c003f223e.cjs",
+    "index.html": "/index.html",
+    "main.a56c616f.css.map": "/static/css/main.a56c616f.css.map",
+    "main.79fd8117.js.map": "/static/js/main.79fd8117.js.map",
+    "385.57edec80.chunk.js.map": "/static/js/385.57edec80.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a56c616f.css",
+    "static/js/main.79fd8117.js"
+  ]
+}
