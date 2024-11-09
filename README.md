@@ -112,7 +112,7 @@ Before running the project, ensure you have the following installed:
 
 1. **Clone the Repository:**
     bash
-    git clone https://github.com/Him7n/Meta-Edu-Aptos.git
+    git clone (https://github.com/NeonKazuha/EduVerse)
     cd EduVerse
     
 
